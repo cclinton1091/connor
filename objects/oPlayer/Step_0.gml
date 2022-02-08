@@ -1,6 +1,6 @@
 right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
-jump = keyboard_check(vk_up);
+jump = keyboard_check_pressed(vk_up);
 
 xDirection = right - left;
 xVector = xSpeed * xDirection;
@@ -16,7 +16,7 @@ if (place_meeting(x + xVector, y, oWall))
 	  
 x = x + xVector;
 
-yVector = yVector = grv;
+yVector = yVector + grv;
 
 if (place_meeting(x, y + yVector, oWall))
       {
@@ -33,4 +33,11 @@ if (place_meeting(x, y + 1, oWall ) and (jump))
 {
 	yVector = jumpForce;
 }
-	
+
+if (y >= room_height)
+
+    {
+		room_restart();
+	}
+
+
