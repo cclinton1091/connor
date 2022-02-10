@@ -2,10 +2,13 @@
   "resources": [
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":15,},
     {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"order":2,},
+    {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":5,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":2,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
+    {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":3,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
+    {"id":{"name":"PlayerHurt","path":"scripts/PlayerHurt/PlayerHurt.yy",},"order":0,},
     {"id":{"name":"oHUD","path":"objects/oHUD/oHUD.yy",},"order":3,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":0,},
     {"id":{"name":"level1","path":"rooms/level1/level1.yy",},"order":0,},

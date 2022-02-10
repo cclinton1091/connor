@@ -1,3 +1,5 @@
+/// @description creating varibles 
+
 xSpeed = 6;
 
 xDirection = 0;
@@ -11,3 +13,7 @@ grv = 0.4;
 jumpForce = -10;
 
 global.coins = 0;
+
+isInvicible = false;
+
+hp = 6;
