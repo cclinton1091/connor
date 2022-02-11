@@ -1,6 +1,6 @@
 /// @description bacis enemy collision 
 
-if (y <= other.y - other.sprite_height*0.9)
+if (y <= other.y )
 
      {
 		 yVector = jumpForce;
@@ -9,6 +9,7 @@ if (y <= other.y - other.sprite_height*0.9)
 	 
 else 
      {
+		 x= x - xVector
 		 PlayerHurt();
 		 
 	 }
