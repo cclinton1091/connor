@@ -7,9 +7,3 @@ if (y <= other.y )
 		 instance_destroy(other);
 	 }
 	 
-else 
-     {
-		 x= x - xVector
-		 PlayerHurt();
-		 
-	 }

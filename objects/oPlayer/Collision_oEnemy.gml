@@ -3,7 +3,10 @@
 if (y <= other.y )
 
      {
-		 yVector = jumpForce;
-		 instance_destroy(other);
+		 EnemyHurt();
 	 }
 	 
+else
+    {
+		PlayerHurt();
+	}

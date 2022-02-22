@@ -5,7 +5,7 @@ function PlayerHurt()
 	if(!oPlayer.isInvicible)
 	{
 		oPlayer.isInvicible = true;
-		alarm_set(0,2*room_speed);
+		alarm_set(0,1*room_speed);
 		oPlayer.hp --;
 		if(oPlayer.hp < 1)
 		    {

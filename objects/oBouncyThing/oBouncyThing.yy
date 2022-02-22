@@ -3,7 +3,7 @@
     "name": "sBouncyThing",
     "path": "sprites/sBouncyThing/sBouncyThing.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
